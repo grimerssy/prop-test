@@ -1,3 +1,12 @@
+#![forbid(unsafe_code)]
+
+pub use proptest;
+
+pub mod prelude {
+    pub use crate::prop_test;
+    pub use proptest::prelude::*;
+}
+
 #[macro_export]
 macro_rules! prop_test {
     ($strategy:expr, $test:expr, $config:expr) => {
