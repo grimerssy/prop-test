@@ -2,13 +2,13 @@
 name = "prop-test"
 version = "0.1.1"
 description = "Formattable proptest macro"
-authors = ["Stanislav Stoyanov <grimerssy@gmail.com>"]
+authors = ["Stanislav Stoyanov <him@stoyanov.st>"]
 license = "MIT OR Apache-2.0"
 edition = "2021"
 rust-version = "1.65"
 readme = "README.md"
 documentation = "https://docs.rs/prop-test"
-repository = "https://github.com/grimerssy/prop-test"
+repository = "https://github.com/2xst/prop-test"
 keywords = ["property", "testing", "quickcheck", "fuzz", "hypothesis"]
 categories = ["development-tools::testing"]
 
